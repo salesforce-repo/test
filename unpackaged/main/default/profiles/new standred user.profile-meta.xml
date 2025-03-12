@@ -509,6 +509,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>School__c.email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>School__c.phone__c</field>
         <readable>true</readable>
     </fieldPermissions>
