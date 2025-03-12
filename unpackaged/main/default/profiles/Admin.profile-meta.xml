@@ -2990,6 +2990,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>School__c.phone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Seller.ActiveFromDate</field>
         <readable>true</readable>
     </fieldPermissions>
