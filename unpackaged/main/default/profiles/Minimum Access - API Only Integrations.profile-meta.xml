@@ -4,6 +4,11 @@
     <userLicense>Salesforce Integration</userLicense>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.myaccount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ApprovalSubmission.Comments</field>
         <readable>true</readable>
     </fieldPermissions>
