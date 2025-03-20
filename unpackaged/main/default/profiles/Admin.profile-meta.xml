@@ -3920,6 +3920,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>players__c.email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>players__c.phone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>suneel__c.suneel1__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4421,6 +4431,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>players__c.Batsmen</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>players__c.Bowler</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <userPermissions>
